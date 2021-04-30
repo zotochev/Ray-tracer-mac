@@ -19,12 +19,12 @@ MLX_DIR	=	mlx_mms
 MLX		=	libmlx.dylib
 
 SRC		:=	$(addprefix srcs/,		\
-			main.c					\
-			ft_atof.c				\
-			get_scene_from_file.c	\
+			main.c				\
+			ft_atof.c			\
+			get_scene_from_file.c		\
 			get_next_line.c			\
-			image.c					\
-			vector_calculation.c	\
+			image.c				\
+			vector_calculation.c		\
 			vector_calculation_products.c	\
 			look_at_matrix.c		\
 			objects_sphere.c		\
@@ -35,17 +35,17 @@ SRC		:=	$(addprefix srcs/,		\
 			object_square.c			\
 			mlx_processor.c			\
 			mlx_check_screen.c		\
-			validation_functions.c			\
+			validation_functions.c		\
 			get_scene_from_file_objects.c	\
-			get_scene_from_file_utils.c		\
-			render_engine_lighting.c		\
-			image_to_file.c					\
-			scene_object_creation_destruction.c		\
-			vector_calculation_color.c				\
-			render_engine_objects_creation.c		\
+			get_scene_from_file_utils.c	\
+			render_engine_lighting.c	\
+			image_to_file.c			\
+			scene_object_creation_destruction.c	\
+			vector_calculation_color.c		\
+			render_engine_objects_creation.c	\
 			render_engine_objects_intersections.c	\
-			validation_scene_objects.c				\
-			validation_scene_utils.c				\
+			validation_scene_objects.c		\
+			validation_scene_utils.c		\
 			validation_scene_processor.c)
 
 
