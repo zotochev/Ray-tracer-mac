@@ -4,10 +4,10 @@
 
 > The goal of your program is to generate images using Raytracing protocol. Those computer generated images will each represent a scene, as seen from a specific angle and position, defined by simple geometric objects, and each with its own lighting system.
 
-Examples:  
+### Examples
 <img src="scenes/example_images/example.jpg" alt="drawing" width="400"/>
 
-Raytracing protocol in one picture:  
+### Raytracing protocol in one picture:  
 <img src="https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg" alt="drawing" width="400"/>
 
 Allowed functions
