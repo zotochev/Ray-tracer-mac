@@ -73,7 +73,7 @@ Note: Description of config file you can find in `en.subject.pdf`
 * **scenes** - example scenes for testing
 
 ## How to build
-requirements: gcc, make, xcode (for mlx library)
+requirements: macos (for mlx library), gcc, make, xcode (for mlx library)
 
 To build the project run `make` command in the root of project (near Makefile)
 
