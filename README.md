@@ -57,7 +57,6 @@ requirements: gcc, make, xcode (for mlx library)
 To build the project run `make` command in the root of project (near Makefile)
 
 ## How to use
-Executable arguments
 ```
 ./miniRT scene.rt --save
 ```
