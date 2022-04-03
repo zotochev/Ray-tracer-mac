@@ -61,7 +61,7 @@ Note: Description of config file you can find in `en.subject.pdf`
 
 ## Project structure
 * srcs
-  * scene_<any>.c - functions for scene representation
+  * scene_[any].c - functions for scene representation
   * object_<any>.c - functions for working with
   * get_scene_from_file_<any>.c
   * validation_<any>.c
