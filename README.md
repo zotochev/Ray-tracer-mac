@@ -58,7 +58,19 @@ cy	50.0,0.0,20.6	  0,0,1.0       14.2	    21.42	  10,0,255
 tr	10,20,10	  10,10,20	20,10,10		  0,0,255
 ```
 Note: Description of config file you can find in `en.subject.pdf`
-Описание структуры проекта
+
+## Project structure
+* srcs
+  * scene_<any>.c - functions for scene representation
+  * object_<any>.c - functions for working with
+  * get_scene_from_file_<any>.c
+  * validation_<any>.c
+  * image_<any>.c
+  * render_<any>.c
+  * mlx_<any>.c 
+* includes
+* libft
+* scenes
 
 ## How to build
 requirements: gcc, make, xcode (for mlx library)
