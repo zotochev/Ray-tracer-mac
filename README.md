@@ -60,17 +60,17 @@ tr	10,20,10	  10,10,20	20,10,10		  0,0,255
 Note: Description of config file you can find in `en.subject.pdf`
 
 ## Project structure
-* srcs
-  * scene_[any].c - functions for scene representation
-  * object_<any>.c - functions for working with
-  * get_scene_from_file_<any>.c
-  * validation_<any>.c
-  * image_<any>.c
-  * render_<any>.c
-  * mlx_<any>.c 
-* includes
-* libft
-* scenes
+* **srcs**
+  * **scene_[any].c** - functions for scene representation, objects, light, cameras
+  * **object_[any].c** - functions for working with
+  * **get_scene_from_file_[any].c** - parsing config file
+  * **validation_[any].c** - functions to validate config file
+  * **image_[any].c** - functions for image representation (mlx object, array for storring every pixel information)
+  * **render_[any].c** - implementation of Raytracing protocol
+  * **mlx_[any].c** - helper functions to work with mlx library
+* **includes** - headerfiles
+* **libft** - self-written: C standart library and linked list library
+* **scenes** - example scenes for testing
 
 ## How to build
 requirements: gcc, make, xcode (for mlx library)
