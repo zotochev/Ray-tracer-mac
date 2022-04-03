@@ -69,7 +69,7 @@ Note: Description of config file you can find in `en.subject.pdf`
   * **render_[any].c** - implementation of Raytracing protocol
   * **mlx_[any].c** - helper functions to work with mlx library
 * **includes** - headerfiles
-* **libft** - self-written: C standart library and linked list library
+* **libft** - self-written: C standard library and linked list library
 * **scenes** - example scenes for testing
 
 ## How to build
