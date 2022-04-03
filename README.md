@@ -46,7 +46,7 @@ sq	0,100,40	  0,0,1.0	30		          42,42,0
 cy	50.0,0.0,20.6	  0,0,1.0       14.2	    21.42	  10,0,255
 tr	10,20,10	  10,10,20	20,10,10		  0,0,255
 ```
-
+Note: Description of config file you can find in `en.subject.pdf`
 Описание структуры проекта
 
 How to build
