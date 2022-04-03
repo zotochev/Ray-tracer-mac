@@ -1,16 +1,16 @@
 # Ray-tracer-mac
 
 ## Description
-Общее описание
-![](scenes/example_images/example.jpg)
-
-Что такое рейтрейсер
-![](https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg)
 
 Description (from subject)
 ```
 The goal of your program is to generate images using Raytracing protocol. Those computer generated images will each represent a scene, as senn from a specific angle and position, defined by simple geometric objects, and each with its own lighting system.
 ```
+
+![](scenes/example_images/example.jpg)
+
+Что такое рейтрейсер
+![](https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg)
 
 Allowed functions
 ```
