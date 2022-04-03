@@ -3,7 +3,7 @@
 ## Description
 Общее описание
 Что такое рейтрейсер
-[](https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg)
+[hello](https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg)
 
 Description (from subject)
 ```
