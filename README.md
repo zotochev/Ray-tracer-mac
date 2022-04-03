@@ -7,8 +7,8 @@
 Examples:  
 <img src="scenes/example_images/example.jpg" alt="drawing" width="400"/>
 
-Что такое рейтрейсер
-![](https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg)
+Raytracing protocol in one picture:  
+<img src="https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg" alt="drawing" width="400"/>
 
 Allowed functions
 ```
