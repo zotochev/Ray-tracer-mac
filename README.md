@@ -10,19 +10,21 @@
 ### Raytracing protocol in one picture:  
 <img src="https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg" alt="drawing" width="400"/>
 
-Allowed functions
+## Implementation detailes
+### Allowed functions
 ```
 open, close, read, write, malloc, free, perror, strerror, exit, math library (math.h), [mlx](https://harm-smits.github.io/42docs/libs/minilibx/introduction.html) (simple window creation library)
 ```
 
-Fugures
+### Fugures
 ```
 plane, sphere, cylinder, square, and triangle
 ```
 
-Saving image as bmp file
-show result using mlx library or create bmp file (no need mlx library)
-No library allowed to create bmp file
+### Showing of result
+By the subject I had to implement two way of presenting result of render:
+* show result in interactive window using mlx library (small library create for 42 needs);
+* saving image as bmp file (no library was allowed to create bmp file).
 
 Config file
 ```
@@ -49,13 +51,16 @@ tr	10,20,10	  10,10,20	20,10,10		  0,0,255
 Note: Description of config file you can find in `en.subject.pdf`
 Описание структуры проекта
 
-How to build
-requirements: gcc, make
+## How to build
+requirements: gcc, make, xcode (for mlx library)
 
-To build an executable run make command in root (of a project) folder
+To build the project run `make` command in the root of project (near Makefile)
 
-How to use
+## How to use
 Executable arguments
+```
+./miniRT scene.rt --save
+```
 1 - file with .rt extension containing scene description.
 2 - "--save" key implements saving of the rendered scene to file with .bmp extension ("--save" is an optional argument).
 
