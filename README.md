@@ -2,6 +2,8 @@
 
 ## Description
 Общее описание
+![](scenes/example_images/example.jpg)
+
 Что такое рейтрейсер
 ![](https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg)
 
