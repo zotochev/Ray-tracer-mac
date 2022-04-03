@@ -3,6 +3,7 @@
 ## Description
 Общее описание
 Что такое рейтрейсер
+[](https://developer.nvidia.com/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg)
 
 Description (from subject)
 ```
@@ -19,12 +20,22 @@ Fugures
 plane, sphere, cylinder, square, and triangle
 ```
 
-bmp file: No library allowed to create bmp file
+Saving image as bmp file
 show result using mlx library or create bmp file (no need mlx library)
+No library allowed to create bmp file
 
-config file
-
-Example
+Config file
+```
+Your program must take as a first argument a scene description file with the .rt
+extension.
+◦ It will contain the window/rendered image size, which implies your miniRT must be able to render in any positive size.
+◦ Each type of element can be separated by one or more empty line(s).
+◦ Each type of information from an element can be separated by one or more
+space(s).
+◦ Each type of element can be set in any order in the file.
+◦ Elements which are defined by a capital letter can only be declared once in the scene.
+```
+Example of config file:
 ```
 c	-50,0,30		    1,0.5,0		100
 l       -40,0,30				0.7				                  255,255,255
