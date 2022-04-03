@@ -12,9 +12,18 @@
 
 ## Implementation detailes
 ### Allowed functions
-```
-open, close, read, write, malloc, free, perror, strerror, exit, math library (math.h), [mlx](https://harm-smits.github.io/42docs/libs/minilibx/introduction.html) (simple window creation library)
-```
+* open
+* close
+* read
+* write
+* malloc
+* free
+* perror
+* strerror
+* exit
+* math library (math.h)
+* [mlx](https://harm-smits.github.io/42docs/libs/minilibx/introduction.html) (simple window creation library)
+
 
 ### Fugures
 ```
